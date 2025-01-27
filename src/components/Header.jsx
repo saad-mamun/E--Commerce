@@ -8,7 +8,7 @@ const Header = () => {
       <div className=" container mx-auto flex items-center justify-between">
         <NavLink to="/">
           <h1 className=" p-3 bg text-2xl font-semibold text-blue-800">
-            Super <span className="text-gray-800">Shop</span>
+            Global <span className="text-gray-800">Tech</span>
           </h1>
         </NavLink>
         <Navbar />
