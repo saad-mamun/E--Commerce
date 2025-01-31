@@ -2,13 +2,11 @@ import React from 'react'
 
 const HeroSection = ({myData}) => {
 
-
     const {name} = myData;
-
 
   return (
     <section>
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-6 mt-32">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-6 mt-32 lg:px-3 px-1">
         {/* left div */}
         <div className="space-y-6">
           <div>
