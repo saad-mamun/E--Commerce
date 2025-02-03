@@ -1,17 +1,20 @@
-import React from 'react'
-import HeroSection from './components/HeroSection'
 
+import HeroSection from './components/HeroSection'
+import { useGlobalContext } from './context/ProductContext';
 const About = () => {
+
+  const {myName} = useGlobalContext()
+  
 
     const data = {
       name: "Tech E-commerce",
     };
 
-
   return (
-    <div>
+    <>
+      {myName}
       <HeroSection myData={data}/>
-    </div>
+    </>
   )
 }
 
