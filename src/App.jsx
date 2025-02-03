@@ -8,6 +8,7 @@ import SingleProduct from "./SingleProduct";
 import Cart from "./Cart"
 import Error from "./Error";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 function App() {
   return (
     <BrowserRouter>
@@ -20,8 +21,8 @@ function App() {
         <Route path="singleproduct/:id" element={<SingleProduct/>} />
         <Route path="cart" element={<Cart/>} />
         <Route path="*" element={ <Error/> } />
-
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
